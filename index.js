@@ -1,5 +1,5 @@
 import Hu from './lib/react'
-import { render } from './lib/react-dom'
+import ReactDOM from './lib/react-dom'
 
 function App() {
   return (
@@ -7,4 +7,4 @@ function App() {
   )
 }
 
-render(<App />, document.getElementById('root'))
+ReactDOM.render(<App />, document.getElementById('root'))
