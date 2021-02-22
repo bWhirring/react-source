@@ -4,7 +4,7 @@
       "@babel/plugin-transform-react-jsx",
       {
         "throwIfNamespace": false, // defaults to true
-        "importSource": "custom-jsx-library", // defaults to react
+        // "importSource": "custom-jsx-library", // defaults to react
         "pragma": "Hu.createElement" 
       }
     ]
